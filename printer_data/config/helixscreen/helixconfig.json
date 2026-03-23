@@ -16,6 +16,12 @@
     "shading_model": "phong",
     "tube_sides": 4
   },
+  "hh_overrides": {
+    "sync_to_extruder": {
+      "config_default": 0,
+      "value": 1
+    }
+  },
   "input": {
     "calibration": {
       "a": 1.0,
