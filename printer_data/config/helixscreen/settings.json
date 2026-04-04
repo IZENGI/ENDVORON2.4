@@ -49,13 +49,6 @@
     "entries": [
       {
         "phases": {
-          "3": 480
-        },
-        "timestamp": 1772706646,
-        "total": 480
-      },
-      {
-        "phases": {
           "3": 490
         },
         "timestamp": 1772747337,
@@ -67,6 +60,13 @@
         },
         "timestamp": 1775294573,
         "total": 495
+      },
+      {
+        "phases": {
+          "3": 20
+        },
+        "timestamp": 1775294737,
+        "total": 20
       }
     ]
   },
@@ -234,7 +234,7 @@
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-04-04T09:24:47Z"
+          "timestamp": "2026-04-04T09:27:17Z"
         },
         "optional": []
       },
