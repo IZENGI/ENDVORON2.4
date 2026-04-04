@@ -49,13 +49,6 @@
     "entries": [
       {
         "phases": {
-          "3": 155
-        },
-        "timestamp": 1775295067,
-        "total": 155
-      },
-      {
-        "phases": {
           "3": 470
         },
         "timestamp": 1775305753,
@@ -67,6 +60,13 @@
         },
         "timestamp": 1775305930,
         "total": 40
+      },
+      {
+        "phases": {
+          "3": 100
+        },
+        "timestamp": 1775306868,
+        "total": 100
       }
     ]
   },
