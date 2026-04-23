@@ -228,7 +228,7 @@
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-04-22T02:00:36Z"
+          "timestamp": "2026-04-23T23:39:19Z"
         },
         "optional": []
       },
@@ -249,12 +249,14 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
+        "last_white": null,
         "led_on_at_start": false,
         "macro_devices": [],
         "selected": [],
         "selected_strips": [
           "neopixel lights"
         ],
+        "startup_brightness": null,
         "strip": "neopixel lights"
       },
       "moonraker_api_key": false,
@@ -557,6 +559,10 @@
           ]
         }
       },
+      "printer_name": "ENDERVORON",
+      "probe_sensors": {
+        "sensors": null
+      },
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
@@ -569,6 +575,10 @@
   "telemetry_enabled": false,
   "theme": {
     "preset": 0
+  },
+  "tour": {
+    "completed": true,
+    "last_seen_version": 1
   },
   "ui": {
     "cached_grid": {
