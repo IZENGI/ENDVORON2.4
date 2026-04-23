@@ -230,7 +230,9 @@
           ],
           "timestamp": "2026-04-23T23:39:27Z"
         },
-        "optional": []
+        "optional": [
+          "controller_fan board_fan"
+        ]
       },
       "heaters": {
         "bed": "heater_bed",
