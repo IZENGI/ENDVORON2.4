@@ -11,6 +11,7 @@
     "frame_counter": 1,
     "gcode_3d_enabled": true,
     "gcode_render_mode": 0,
+    "screensaver_type": 2,
     "sleep_sec": 600,
     "timezone": "Australia/Perth"
   },
