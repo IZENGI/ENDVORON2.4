@@ -1,5 +1,6 @@
 {
   "active_printer_id": "default",
+  "brightness": 48,
   "config_version": 16,
   "dark_mode": true,
   "display": {
