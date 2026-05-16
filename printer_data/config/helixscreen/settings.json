@@ -1,6 +1,13 @@
 {
   "active_printer_id": "default",
   "brightness": 48,
+  "calibration": {
+    "pid_history": {
+      "heater_bed": {
+        "oscillation_duration": 153.3419952392578
+      }
+    }
+  },
   "config_version": 16,
   "dark_mode": true,
   "display": {
@@ -580,6 +587,13 @@
   "telemetry_enabled": false,
   "theme": {
     "preset": 0
+  },
+  "thermal": {
+    "rates": {
+      "heater_bed": {
+        "heat_rate": 2.1108415126800537
+      }
+    }
   },
   "tour": {
     "completed": true,
