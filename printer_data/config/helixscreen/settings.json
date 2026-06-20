@@ -50,6 +50,9 @@
   },
   "language": "en",
   "led": {
+    "auto_state": {
+      "enabled": null
+    },
     "selected_strips": null
   },
   "log_path": "/tmp/helixscreen.log",
@@ -311,13 +314,12 @@
             "neopixel lights"
           ],
           "sensors": [
-            "tmc2240 extruder",
             "temperature_sensor raspberry_pi",
             "temperature_sensor chamber",
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-05-31T08:23:07Z"
+          "timestamp": "2026-06-20T17:13:45Z"
         },
         "optional": [
           "controller_fan board_fan"
@@ -328,6 +330,9 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_state": {
+          "mappings": null
+        },
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
