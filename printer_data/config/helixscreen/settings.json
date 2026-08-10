@@ -319,7 +319,7 @@
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-08-10T13:51:07Z"
+          "timestamp": "2026-08-10T13:54:17Z"
         },
         "optional": [
           "controller_fan board_fan"
