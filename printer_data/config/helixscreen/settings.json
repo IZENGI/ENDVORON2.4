@@ -310,7 +310,7 @@
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-09-05T10:36:10Z"
+          "timestamp": "2026-09-05T10:36:39Z"
         },
         "optional": [
           "controller_fan board_fan"
@@ -321,6 +321,10 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_paired_bases": [
+          "SET_LOGO_LEDS",
+          "SET_NOZZLE_LEDS"
+        ],
         "auto_state": {},
         "color_presets": [
           "#FFFFFF",
@@ -334,12 +338,31 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
+        "last_white": 0.0,
         "led_on_at_start": false,
-        "macro_devices": [],
+        "macro_devices": [
+          {
+            "name": "Set Logo Leds",
+            "off_macro": "SET_LOGO_LEDS_OFF",
+            "on_macro": "SET_LOGO_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "Set Nozzle Leds",
+            "off_macro": "SET_NOZZLE_LEDS_OFF",
+            "on_macro": "SET_NOZZLE_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          }
+        ],
         "selected": [],
         "selected_strips": [
           "neopixel lights"
         ],
+        "startup_brightness": 80,
         "strip": "neopixel lights"
       },
       "moonraker_api_key": false,
