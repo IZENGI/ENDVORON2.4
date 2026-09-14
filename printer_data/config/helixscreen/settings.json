@@ -84,15 +84,6 @@
       },
       {
         "phases": {
-          "9": 12
-        },
-        "temp_bucket": 2,
-        "timestamp": 1788672344,
-        "total": 158,
-        "window": 1
-      },
-      {
-        "phases": {
           "7": 54
         },
         "temp_bucket": 2,
@@ -172,6 +163,15 @@
         "temp_bucket": 2,
         "timestamp": 1789293190,
         "total": 206,
+        "window": 1
+      },
+      {
+        "phases": {
+          "9": 13
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789380188,
+        "total": 180,
         "window": 1
       }
     ]
@@ -334,7 +334,7 @@
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-09-14T09:59:12Z"
+          "timestamp": "2026-09-14T10:09:07Z"
         },
         "optional": [
           "controller_fan board_fan"
@@ -707,10 +707,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.7526153326034546
+        "heat_rate": 1.4210257530212402
       },
       "heater_bed": {
-        "heat_rate": 2.519810676574707
+        "heat_rate": 2.5090925693511963
       }
     }
   },
