@@ -415,9 +415,9 @@ CONFIG_PARAM_BOWDEN_ALLOWABLE_ENCODER_DELTA=20.0 #~DEFAULT~#
 CONFIG_PARAM_BOWDEN_PRE_UNLOAD_TEST=1 #~DEFAULT~#
 CONFIG_PARAM_ENCODER_MOVE_VALIDATION=1 #~DEFAULT~#
 # CONFIG_MMU_HAS_ESPOOLER is not set #~DEFAULT~#
-CONFIG_MMU_HAS_SENSOR_ENTRY=y
-CONFIG_MMU_HAS_SENSOR_EXIT=y
-CONFIG_MMU_HAS_SENSOR_SHARED_EXIT=y
+# CONFIG_MMU_HAS_SENSOR_ENTRY is not set #~DEFAULT~#
+# CONFIG_MMU_HAS_SENSOR_EXIT is not set #~DEFAULT~#
+# CONFIG_MMU_HAS_SENSOR_SHARED_EXIT is not set #~DEFAULT~#
 # CONFIG_MMU_HAS_SENSOR_GEAR_TOUCH is not set #~DEFAULT~#
 CONFIG_PARAM_REGISTER_MMU_SENSORS=1 #~DEFAULT~#
 CONFIG_PARAM_MISC_HARDWARE="[temperature_sensor unit0_Chamber]\\nsensor_type: BME280\\ni2c_address: 118\\ni2c_mcu: unit0\\ni2c_software_scl_pin: unit0:PA8\\ni2c_software_sda_pin: unit0:PC9\\n\\n[temperature_sensor unit0_Outside]\\nsensor_type: BME280\\ni2c_address: 119\\ni2c_mcu: unit0\\ni2c_software_scl_pin: unit0:PA8\\ni2c_software_sda_pin: unit0:PC9\\n\\n[controller_fan unit0_fan]\\nstepper: stepper_unit0_gear\\n" #~DEFAULT~#
@@ -572,7 +572,10 @@ CONFIG_PARAM_GEAR_UART_ADDRESS_3=0 #~DEFAULT~#
 #   MCU connection
 # CONFIG_CHOICE_MMU_CONNECTION_TYPE_SERIAL is not set #~DEFAULT~#
 CONFIG_CHOICE_MMU_CONNECTION_TYPE_CANBUS=y
-CONFIG_CHOICE_MMU_CANBUS_UUID_PREVIOUS=y #~DEFAULT~#
+# CONFIG_CHOICE_MMU_CANBUS_UUID_PREVIOUS is not set #~DEFAULT~#
+# CONFIG_CHOICE_MMU_CANBUS_UUID_CAN0_015114B4B0DA is not set #~DEFAULT~#
+# CONFIG_CHOICE_MMU_CANBUS_UUID_CAN0_8C85CE958CA0 is not set #~DEFAULT~#
+CONFIG_CHOICE_MMU_CANBUS_UUID_CAN0_914A339E2EF0=y
 # CONFIG_CHOICE_MMU_CANBUS_UUID_OTHER is not set #~DEFAULT~#
 CONFIG_PARAM_MMU_CANBUS_UUID="914a339e2ef0" #~DEFAULT~#
 CONFIG_PARAM_MMU_CANBUS_INTERFACE="can0" #~DEFAULT~#
@@ -604,10 +607,6 @@ CONFIG_PARAM_GEAR_UART_ADDRESS_11=0 #~DEFAULT~#
 #     end of Mmu eject buttons
 #     Sync-feedback Buffer
 #     end of Sync-feedback Buffer
-#     Mmu entry sensor pins
-#     end of Mmu entry sensor pins
-#     Mmu exit sensor pins
-#     end of Mmu exit sensor pins
 #   end of Pins / TMC
 #   _
 #   Toolhead sensors/settings
@@ -619,8 +618,6 @@ CONFIG_PARAM_GEAR_UART_ADDRESS_11=0 #~DEFAULT~#
 #   _
 #   Endstops and Bowden movement
 #     _Gate homing
-# CONFIG_CHOICE_GATE_HOMING_ENDSTOP_EXIT is not set #~DEFAULT~#
-# CONFIG_CHOICE_GATE_HOMING_ENDSTOP_SHARED_EXIT is not set #~DEFAULT~#
 # CONFIG_CHOICE_GATE_HOMING_ENDSTOP_ENCODER is not set #~DEFAULT~#
 CONFIG_CHOICE_GATE_HOMING_ENDSTOP_EXTRUDER=y #~DEFAULT~#
 CONFIG_PARAM_GATE_HOMING_ENDSTOP="extruder" #~DEFAULT~#
@@ -643,10 +640,8 @@ CONFIG_PARAM_TOOLHEAD_HOMING_MAX=40 #~DEFAULT~#
 #   end of Endstops and Bowden movement
 #   Filament preloading and ejection
 CONFIG_CHOICE_GATE_PRELOAD_ENDSTOP_DEFAULT=y #~DEFAULT~#
-# CONFIG_CHOICE_GATE_PRELOAD_ENDSTOP_EXIT is not set #~DEFAULT~#
 # CONFIG_CHOICE_GATE_PRELOAD_ENDSTOP_NONE is not set #~DEFAULT~#
 CONFIG_PARAM_GATE_PRELOAD_ENDSTOP="" #~DEFAULT~#
-CONFIG_PARAM_GATE_AUTOLOAD=1 #~DEFAULT~#
 CONFIG_PARAM_GATE_PRELOAD_ATTEMPTS=2 #~DEFAULT~#
 #     _
 #   end of Filament preloading and ejection
