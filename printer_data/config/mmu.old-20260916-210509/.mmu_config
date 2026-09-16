@@ -12,17 +12,17 @@ CONFIG_MMU_HAS_SENSOR_EXTRUDER=y
 #   (\")_(\") Configuration - Unit: [[B]]unit0[[/B]]             
 #                                                     
 #   _
-CONFIG_PARAM_TOOLHEAD_TYPE="A4T WWBMG Rapido2 Plus HF" #~DEFAULT~#
+CONFIG_PARAM_TOOLHEAD_TYPE="Other/Unknown" #~DEFAULT~#
 CONFIG_PARAM_TOOLHEAD="default" #~DEFAULT~#
 # CONFIG_TOOLHEAD_TYPE_A4T_WWBMG_BAMBU_TZ3 is not set
-CONFIG_PARAM_TOOLHEAD_EXTRUDER_TO_NOZZLE=88.5 #~DEFAULT~#
-CONFIG_PARAM_TOOLHEAD_SENSOR_TO_NOZZLE=77 #~DEFAULT~#
-CONFIG_PARAM_TOOLHEAD_ENTRY_TO_EXTRUDER=9.7 #~DEFAULT~#
-CONFIG_PARAM_TOOLHEAD_RESIDUAL_FILAMENT=20.0 #~DEFAULT~#
+CONFIG_PARAM_TOOLHEAD_EXTRUDER_TO_NOZZLE=72 #~DEFAULT~#
+CONFIG_PARAM_TOOLHEAD_SENSOR_TO_NOZZLE=62 #~DEFAULT~#
+CONFIG_PARAM_TOOLHEAD_ENTRY_TO_EXTRUDER=8 #~DEFAULT~#
+CONFIG_PARAM_TOOLHEAD_RESIDUAL_FILAMENT=2 #~DEFAULT~#
 # CONFIG_TOOLHEAD_TYPE_A4T_WWBMG_DRAGON_ACE_VOLCANO_MZE is not set
 # CONFIG_TOOLHEAD_TYPE_A4T_WWBMG_DRAGON_HF_MZE is not set
 # CONFIG_TOOLHEAD_TYPE_A4T_WWBMG_FOR_A4T_DRAGON_ACE is not set
-CONFIG_TOOLHEAD_TYPE_A4T_WWBMG_RAPIDO2_PLUS_HF=y
+# CONFIG_TOOLHEAD_TYPE_A4T_WWBMG_RAPIDO2_PLUS_HF is not set
 # CONFIG_TOOLHEAD_TYPE_A4T_WWBMG_REVO_VORON is not set
 # CONFIG_TOOLHEAD_TYPE_A4T_WWG2_DRAGON_HF_MZE is not set
 # CONFIG_TOOLHEAD_TYPE_AFTERBURNER_CLOCKWORK_DRAGON_HF is not set
@@ -45,7 +45,7 @@ CONFIG_TOOLHEAD_TYPE_A4T_WWBMG_RAPIDO2_PLUS_HF=y
 # CONFIG_TOOLHEAD_TYPE_STEALTHBURNER_G2E_RAPIDO_HF is not set
 # CONFIG_TOOLHEAD_TYPE_STEALTHBURNER_G2E_REVO is not set
 # CONFIG_TOOLHEAD_TYPE_XOL_METRIX_SHERPA_MINI_CNC_RAPIDO_1_UHF is not set
-# CONFIG_CHOICE_TOOLHEAD_TYPE_OTHER is not set #~DEFAULT~#
+CONFIG_CHOICE_TOOLHEAD_TYPE_OTHER=y #~DEFAULT~#
 CONFIG_PIN_TOOLHEAD_SENSOR="^EBBCan:PB9"
 CONFIG_PIN_EXTRUDER_SENSOR="EBBCan:PB8"
 CONFIG_PARAM_REGISTER_TOOLHEAD_SENSORS=1 #~DEFAULT~#
@@ -769,3 +769,32 @@ CONFIG_PARAM_AUTOTUNE_ROTATION_DISTANCE=1
 #   _
 #   Paths & Services
 #   end of Paths & Services
+CONFIG_SHOW_PER_UNIT_WARNINGS=y
+CONFIG_W3=y
+#   _
+#   _Config Warnings / Errors
+#   Custom MMU selected. You will need to carefully check configuration
+#   Unknown/manual MCU board selected. You will need to configure all pins
+#   Toolhead type is 'other'. Are you sure yours is not listed?
+#   No gate homing endstop configured
+#   Parking must be a retraction (<=0) unless gate endstop is mmu_exit
+#   Leds are enabled but no MCU pin defined
+#   Managed fans are enabled but no MCU pin defined
+#   Encoder is enabled but no MCU pin defined
+#   Shared exit sensor is enabled but no MCU pin defined
+#   Buffer tension switch is enabled but no MCU pin defined
+#   Buffer compression switch is enabled but no MCU pin defined
+#   Buffer proportional feedback enabled but no analog MCU pin defined
+#   MMU heater is enabled but heater name(s) not defined
+#   MMU environment sensor is enabled but sensor name(s) not defined
+#   Sync-feedback buffer configured but it had no sensors defined
+#   Sync-feedback buffer configured with both analog and digital inputs
+#   NFC neighbor eviction jog must be backward (<=0) unless gate endstop is mmu_exit
+#   NFC gate clear jog must be backward (<=0) unless gate endstop is mmu_exit
+#   NFC preload clear jog must be backward (<=0) unless preload endstop is mmu_exit
+#   Servo gate angle count must match the number of gates
+#   MMU heater is configured without a fixed heater fan
+#   Gear motor(s) missing step or direction pins [Pins / TMC]
+#   Gear TMC driver(s) missing UART pins [Pins / TMC]
+#   Selector stepper missing step or direction pins [Pins / TMC]
+#   Selector TMC driver missing UART pin [Pins / TMC]
