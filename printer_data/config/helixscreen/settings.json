@@ -58,31 +58,14 @@
   "print_start_history": {
     "entries": [
       {
-        "phases": {
-          "9": 13
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789380188,
-        "total": 180,
-        "window": 1
+        "phases": {},
+        "timestamp": 1775384872,
+        "total": 20
       },
       {
-        "phases": {
-          "9": 12
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789380760,
-        "total": 168,
-        "window": 1
-      },
-      {
-        "phases": {
-          "9": 12
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789381462,
-        "total": 178,
-        "window": 1
+        "phases": {},
+        "timestamp": 1775388289,
+        "total": 20
       },
       {
         "phases": {},
@@ -96,7 +79,7 @@
       },
       {
         "phases": {},
-        "timestamp": 1775384872,
+        "timestamp": 1775388289,
         "total": 20
       },
       {
@@ -152,6 +135,16 @@
         "temp_bucket": 1,
         "timestamp": 1790987450,
         "total": 1302,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 82,
+          "9": 13
+        },
+        "temp_bucket": 1,
+        "timestamp": 1790996332,
+        "total": 839,
         "window": 1
       }
     ]
@@ -672,10 +665,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6470039486885071
+        "heat_rate": 0.6457154154777527
       },
       "heater_bed": {
-        "heat_rate": 1.5865923166275024
+        "heat_rate": 1.5284621715545654
       }
     }
   },
