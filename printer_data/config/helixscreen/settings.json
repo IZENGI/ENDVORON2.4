@@ -69,56 +69,6 @@
       },
       {
         "phases": {},
-        "timestamp": 1775384872,
-        "total": 20
-      },
-      {
-        "phases": {},
-        "timestamp": 1775388289,
-        "total": 20
-      },
-      {
-        "phases": {},
-        "timestamp": 1775388289,
-        "total": 20
-      },
-      {
-        "phases": {},
-        "timestamp": 1775388289,
-        "total": 20
-      },
-      {
-        "phases": {},
-        "timestamp": 1775388289,
-        "total": 20
-      },
-      {
-        "phases": {},
-        "timestamp": 1775388289,
-        "total": 20
-      },
-      {
-        "phases": {},
-        "timestamp": 1775384872,
-        "total": 20
-      },
-      {
-        "phases": {},
-        "timestamp": 1775388289,
-        "total": 20
-      },
-      {
-        "phases": {},
-        "timestamp": 1775384872,
-        "total": 20
-      },
-      {
-        "phases": {},
-        "timestamp": 1775388289,
-        "total": 20
-      },
-      {
-        "phases": {},
         "timestamp": 1775388289,
         "total": 20
       },
@@ -139,6 +89,61 @@
         "temp_bucket": 2,
         "timestamp": 1791037257,
         "total": 198,
+        "window": 1
+      },
+      {
+        "phases": {},
+        "timestamp": 1775388289,
+        "total": 20
+      },
+      {
+        "phases": {},
+        "timestamp": 1775388289,
+        "total": 20
+      },
+      {
+        "phases": {},
+        "timestamp": 1775388289,
+        "total": 20
+      },
+      {
+        "phases": {},
+        "timestamp": 1775388289,
+        "total": 20
+      },
+      {
+        "phases": {},
+        "timestamp": 1775384872,
+        "total": 20
+      },
+      {
+        "phases": {},
+        "timestamp": 1775388289,
+        "total": 20
+      },
+      {
+        "phases": {},
+        "timestamp": 1775384872,
+        "total": 20
+      },
+      {
+        "phases": {},
+        "timestamp": 1775388289,
+        "total": 20
+      },
+      {
+        "phases": {},
+        "timestamp": 1775388289,
+        "total": 20
+      },
+      {
+        "phases": {
+          "7": 71,
+          "9": 12
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791107977,
+        "total": 990,
         "window": 1
       }
     ]
@@ -659,10 +664,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6481106281280518
+        "heat_rate": 0.6456415057182312
       },
       "heater_bed": {
-        "heat_rate": 1.3961890935897827
+        "heat_rate": 1.587742805480957
       }
     }
   },
