@@ -279,18 +279,7 @@
           "filament_sensors": [
             "filament_switch_sensor default:extruder",
             "filament_switch_sensor default:toolhead",
-            "filament_switch_sensor mmu_entry_0",
-            "filament_switch_sensor mmu_entry_1",
-            "filament_switch_sensor mmu_entry_2",
-            "filament_switch_sensor mmu_entry_3",
-            "filament_switch_sensor unit0:mmu_shared_exit",
-            "filament_switch_sensor mmu_exit_0",
-            "filament_switch_sensor mmu_exit_1",
-            "filament_switch_sensor mmu_exit_2",
-            "filament_switch_sensor mmu_exit_3",
-            "filament_switch_sensor unit0:encoder",
-            "filament_switch_sensor unit0:filament_compression",
-            "filament_switch_sensor unit0:filament_tension"
+            "filament_switch_sensor unit0:encoder"
           ],
           "heaters": [
             "heater_bed",
@@ -308,7 +297,7 @@
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-10-06T14:34:50Z"
+          "timestamp": "2026-10-06T22:35:39Z"
         },
         "optional": [
           "controller_fan board_fan"
