@@ -291,13 +291,12 @@
             "neopixel lights"
           ],
           "sensors": [
-            "temperature_sensor unit0_mcu",
             "temperature_sensor raspberry_pi",
             "temperature_sensor chamber",
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-10-07T11:51:49Z"
+          "timestamp": "2026-10-07T12:44:33Z"
         },
         "optional": [
           "controller_fan board_fan"
