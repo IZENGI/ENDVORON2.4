@@ -279,16 +279,9 @@
           "filament_sensors": [
             "filament_switch_sensor default:extruder",
             "filament_switch_sensor default:toolhead",
-            "filament_switch_sensor mmu_entry_0",
-            "filament_switch_sensor mmu_entry_1",
-            "filament_switch_sensor mmu_entry_2",
-            "filament_switch_sensor mmu_entry_3",
-            "filament_switch_sensor unit0:mmu_shared_exit",
-            "filament_switch_sensor mmu_exit_0",
-            "filament_switch_sensor mmu_exit_1",
-            "filament_switch_sensor mmu_exit_2",
-            "filament_switch_sensor mmu_exit_3",
-            "filament_switch_sensor unit0:encoder"
+            "filament_switch_sensor unit0:encoder",
+            "filament_switch_sensor unit0:filament_compression",
+            "filament_switch_sensor unit0:filament_tension"
           ],
           "heaters": [
             "heater_bed",
@@ -300,12 +293,13 @@
             "neopixel lights"
           ],
           "sensors": [
+            "temperature_sensor unit0_mcu",
             "temperature_sensor raspberry_pi",
             "temperature_sensor chamber",
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-10-09T14:35:15Z"
+          "timestamp": "2026-10-09T14:40:51Z"
         },
         "optional": [
           "controller_fan board_fan"
