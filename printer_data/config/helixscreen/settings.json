@@ -30,7 +30,7 @@
   },
   "hh_overrides": {
     "sync_to_extruder": {
-      "config_default": 0,
+      "config_default": 1,
       "value": 1
     }
   },
@@ -305,7 +305,7 @@
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-10-09T14:12:41Z"
+          "timestamp": "2026-10-09T14:13:59Z"
         },
         "optional": [
           "controller_fan board_fan"
